@@ -1,7 +1,12 @@
 #include <stdio.h>
+#include "master.h"
+
 
 int main()
 {
-    printf("Hello World! and good morning\n");
+    int a = 4;
+    int b = -6;
+    int c = valeur_absolue(b);
+    printf("%d\n",c);
     return 0;
 }
