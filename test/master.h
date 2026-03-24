@@ -1,8 +1,9 @@
 #ifndef MASTER_H
 #define MASTER_H
 
-
-int valeur_absolue(int a);
-int distance_manathan(int a,int b);
-int addition(int a,int b);
+void hello_world();
+int compare(int a, int b);
+void affiche_list(int* a,int n);
+void affiche_list_2(int* a, int n);
+int* assignement(int a);
 #endif // MASTER_H

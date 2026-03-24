@@ -1,14 +1,38 @@
 #include "master.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-int valeur_absolue(int a){
 
-    if (a<0) {
-        return -a;
-        }
-    else{
-        return a;
-        }
+
+void hello_world(){
+    printf("Hello word\n");
 }
-int distance_manathan(int a,int b){
-    return valeur_absolue(a)+valeur_absolue(b);
+int compare(int a,int b){
+    if (a>b){
+        return a;
+    }
+    else{
+        return b;
+    }
+}
+
+void affiche_list(int* a,int n){
+
+    for(int i=0;i<n;i++){
+        printf("%d ",*(a+i));
+    }
+}
+
+void affiche_list_2(int* a,int n){
+    int i =0;
+    while (i<n) {
+        printf("%d ",*(a+i));
+        i = i+1;
+    }
+}
+
+int* assignement(int a){
+    int *variable =malloc(sizeof(int));
+    *variable=a;
+    return variable;
 }
