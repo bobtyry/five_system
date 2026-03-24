@@ -6,4 +6,5 @@ int compare(int a, int b);
 void affiche_list(int* a,int n);
 void affiche_list_2(int* a, int n);
 int* assignement(int a);
+int addition(int a, int b);
 #endif // MASTER_H

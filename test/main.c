@@ -20,7 +20,9 @@ int main()
     int* f=assignement(b);
     printf("Valeur : %d\n", *f);
     printf("Adresse : %p\n", (void*)f);
+    int g = addition(a,b);
+    printf("somme de %d et %d = %d\n",a,b,g);
+
     return 0;
 }
-
 

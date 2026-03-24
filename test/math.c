@@ -36,3 +36,7 @@ int* assignement(int a){
     *variable=a;
     return variable;
 }
+
+int addition(int a,int b){
+    return a+ b;
+}
